@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 let i = 2;
 const userInput = process.argv;
 if (userInput.length > 2) {
-  let finalUser = [];
+  const finalUser = [];
   for (i; i < userInput.length; i++) {
     finalUser[i] = process.argv[i];
   }
